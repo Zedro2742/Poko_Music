@@ -57,8 +57,8 @@ module.exports = {
         });
       } else {
         let supportbutton = new MessageButton().setStyle("LINK").setLabel("Join Support").setURL(config.env.SUPPORT || process.env.SUPPORT)
-        let invitebutton = new MessageButton().setStyle("LINK").setLabel("Invite Me").setURL(config.env.SUPPORT || process.env.INVITE)
-        let websitebutton = new MessageButton().setStyle("LINK").setLabel("Check Website").setURL(config.env.SUPPORT || process.env.WEBSITE)
+        let invitebutton = new MessageButton().setStyle("LINK").setLabel("Invite Me").setURL(config.env.INVITE || process.env.INVITE)
+        let websitebutton = new MessageButton().setStyle("LINK").setLabel("Check Website").setURL(config.env.WEBSITE || process.env.WEBSITE)
 
         const row = new MessageActionRow()
           .addComponents(supportbutton, invitebutton, websitebutton);
