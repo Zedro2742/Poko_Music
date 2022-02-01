@@ -1,0 +1,22 @@
+{
+  "env": {
+    "TOKEN": "",
+    "PREFIX": "",
+    "MongoDB_TOKEN": "",
+    "youtubeCookie": "",
+    "spotify_clientID": "3c6c7f972f634fb9b3b447197eff4c68",
+    "spotify_clientSecret": "8eb999c96f0f4d9fb644fbb2f7040703",
+    "SUPPORT": "https://discord.gg/milanio",
+    "INVITE": "https://discord.com/oauth2/authorize?client_id=883378543613083728&permissions=3457096&scope=bot%20applications.commands",
+    "WEBSITE": "https://www.milaniodev.ml"
+  },
+  "music": {
+    "musicRequestImage": "https://cdn.discordapp.com/attachments/907875631000334346/929746731086774272/ezgif.com-gif-maker_1.gif"
+  },
+  "events": {
+    "Enable_debug": false
+  },
+  "ownerID": ["850303341435027466"],
+  "SlashCommandsGlobal": true, "SlashCommand_Server_id": "",
+  "Enable_MongoDB": true
+}
